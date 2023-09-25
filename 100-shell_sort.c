@@ -9,6 +9,9 @@ void shell_sort(int *array, size_t size)
 	size_t gab, j, k;
 
 	int temp;
+
+	if (array == NULL || size < 2)
+		return;
 	gab = 1;
 	for (; gab < size / 3;)
 		gab *= 3 + 1;
