@@ -33,7 +33,6 @@ int parti(int *array, size_t size, int l, int h)
 	temp = array[j];
 	array[j] = array[l];
 	array[l] = temp;
-	print_array(array, size);
 	return (j);
 }
 /**
