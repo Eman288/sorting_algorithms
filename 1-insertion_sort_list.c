@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * swab_nodes -  a function to swap two nodes
+ * swap_nodes -  a function to swap two nodes
  * @head: the header of the list
  * @a: the first node
  * @b: the second node
