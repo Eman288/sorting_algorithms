@@ -65,7 +65,7 @@ void cocktail_sort_list(listint_t **list)
 		n++;
 	}
 	for (i = 0; i < n ; i++)
-	{ 
+	{
 		move = s;
 		for (; move->next; )
 		{
